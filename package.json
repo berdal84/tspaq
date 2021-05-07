@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A simple package to understand the process of making a package.",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berdal84/tspaq"
+  },
   "scripts": {
     "start": "npx ts-node ./main.ts",
     "watch": "npx ts-node-dev --respawn --transpile-only ./main.ts"
