@@ -8,8 +8,9 @@
     "url": "git+https://github.com/berdal84/tspaq"
   },
   "scripts": {
-    "start": "npx ts-node ./main.ts",
-    "watch": "npx ts-node-dev --respawn --transpile-only ./main.ts"
+    "build": "npx tsc",
+    "test": "npx ts-node ./tests/main.ts",
+    "test:watch": "npx ts-node-dev --respawn --transpile-only ./tests/main.ts"
   },
   "author": "berdal84",
   "license": "ISC",
