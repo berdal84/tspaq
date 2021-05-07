@@ -9,8 +9,7 @@
   },
   "scripts": {
     "build": "npx tsc",
-    "test": "npx ts-node ./tests/main.ts",
-    "test:watch": "npx ts-node-dev --respawn --transpile-only ./tests/main.ts"
+    "test": "jest --config jestconfig.json"
   },
   "author": "berdal84",
   "license": "ISC",
