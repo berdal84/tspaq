@@ -1,5 +1,10 @@
-import { Lib } from '../src/index'
+import { add, mult } from '../src/index'
 
-test('Lib.add', () => {
-  expect( Lib.add(2,3)).toBe(5);
+test('add', () => {
+  expect( add(2,3)).toBe(2+3);
+});
+
+test('mult', () => {
+  expect( mult(12,3)).toBe(12*3);
+  expect( mult(12,-3)).toBe(-12*3);
 });

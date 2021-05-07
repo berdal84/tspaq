@@ -1,24 +1,21 @@
+/**
+ * Add two numbers and return the result
+ * @param x
+ * @param y
+ * @returns
+ */
+function add(x: number, y: number): number {
+  return x + y;
+}
 
 /**
- * A namespace with some functions...
+ * Multiply two numbers and return the result
+ * @param x
+ * @param y
+ * @returns
  */
-export namespace Lib {
-	
-	/**
-	 * Log with a nice prefix
-	 * @param args 
-	 */
-	export function log( ...args: any ): void {
-		console.log('  [ TSPAQ ] says: ', ...args);
-	}
-
-	/**
-	 * Add two numbers and return the result
-	 * @param x 
-	 * @param y 
-	 * @returns 
-	 */
-	export function add(x: number, y: number): number {
-		return x + y;
-	}
+function mult(x: number, y: number): number {
+  return x * y;
 }
+
+export { add, mult };
